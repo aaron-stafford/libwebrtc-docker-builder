@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-git clone --branch issue-802-part-1 https://github.com/lumin-leaper/com.unity.webrtc --depth=1
+git clone --branch bugfix-depot_tools-issue-workaround https://github.com/lumin-leaper/com.unity.webrtc --depth=1
 pushd com.unity.webrtc
 mkdir -p out/Debug
 mkdir -p out/Release
