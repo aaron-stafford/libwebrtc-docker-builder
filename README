@@ -3,9 +3,6 @@ Webrtc plugin.
 
 Requires approximately 40gig disk space.
 
-# To install docker into a fresh environment (ubuntu) run the following
-bash install-docker.sh
-
 sudo ./build.sh # To build the docker image.
 
 sudo ./run-debug.sh # To launch the image but not run the script.
