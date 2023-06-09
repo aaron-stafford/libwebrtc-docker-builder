@@ -2,4 +2,4 @@
 set -e
 set -x
 mkdir -p result
-docker run --platform=linux/amd64 -v /result:/result -v $(pwd)/script:/script -v $(pwd)/patches:/patches -it build_libwebrtc_android
+docker run --platform=linux/amd64 -v $(pwd)/../result:/result -v $(pwd)/script:/script -v $(pwd)/patches:/patches -it build_libwebrtc_android
